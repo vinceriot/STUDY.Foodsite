@@ -113,18 +113,20 @@
                     </div>
                 </div>
                 <div class="offer__slider-wrapper">
-                    <div class="offer__slide">
-                        <img src="img/slider/pepper.jpg" alt="pepper">
+                    <div class="offer__slider-inner">
+                        <div class="offer__slide">
+                            <img src="img/slider/pepper.jpg" alt="pepper">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/slider/food-12.jpg" alt="food">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/slider/olive-oil.jpg" alt="oil">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/slider/paprika.jpg" alt="paprika">
+                        </div>
                     </div>
-                    <!-- <div class="offer__slide">
-                        <img src="img/slider/food-12.jpg" alt="food">
-                    </div>
-                    <div class="offer__slide">
-                        <img src="img/slider/olive-oil.jpg" alt="oil">
-                    </div>
-                    <div class="offer__slide">
-                        <img src="img/slider/paprika.jpg" alt="paprika">
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -141,8 +143,8 @@
                     Ваш пол
                 </div>
                 <div class="calculating__choose" id="gender">
-                    <div class="calculating__choose-item calculating__choose-item_active">Женщина</div>
-                    <div class="calculating__choose-item">Мужчина</div>
+                    <div id="female" class="calculating__choose-item calculating__choose-item_active">Женщина</div>
+                    <div id="male" class="calculating__choose-item">Мужчина</div>
                 </div>
 
                 <div class="calculating__subtitle">
@@ -158,10 +160,10 @@
                     Выберите вашу физическая активность
                 </div>
                 <div class="calculating__choose calculating__choose_big">
-                    <div id="low" class="calculating__choose-item">Низкая активность </div>
-                    <div id="small"  class="calculating__choose-item calculating__choose-item_active">Невысокая активность</div>
-                    <div id="medium" class="calculating__choose-item">Умеренная активность</div>
-                    <div id="high" class="calculating__choose-item">Высокая активность</div>
+                    <div data-ratio="1.2" id="low" class="calculating__choose-item">Низкая активность </div>
+                    <div data-ratio="1.375" id="small"  class="calculating__choose-item calculating__choose-item_active">Невысокая активность</div>
+                    <div data-ratio="1.55" id="medium" class="calculating__choose-item">Умеренная активность</div>
+                    <div data-ratio="1.725" id="high" class="calculating__choose-item">Высокая активность</div>
                 </div>
 
                 <div class="calculating__divider"></div>
@@ -212,27 +214,25 @@
                 <div class="promotion__descr">
                     Мы ценим каждого клиента и предлагаем вам стать одним из них на очень выгодных условиях. 
                     Каждому, кто закажет доставку питание на неделю, будет предоставлена скидка в размере <span>20%!</span>
-                    <br><br>
-                    Акция закончится 20 мая в 00:00
                 </div>
             </div>
             <div class="promotion__timer">
                 <div class="title">Осталось до конца акции:</div>
                 <div class="timer">
                     <div class="timer__block">
-                        <span id="days">12</span>
+                        <span id="days">00</span>
                         дней
                     </div>
                     <div class="timer__block">
-                        <span id="hours">20</span>
+                        <span id="hours">00</span>
                         часов
                     </div>
                     <div class="timer__block">
-                        <span id="minutes">56</span>
+                        <span id="minutes">00</span>
                         минут
                     </div>
                     <div class="timer__block">
-                        <span id="seconds">20</span>
+                        <span id="seconds">00</span>
                         секунд
                     </div>
                 </div>
@@ -252,8 +252,8 @@
             </div>
             <div class="call">
                 <div class="subtitle">Или позвоните нам</div>
-                <a href="#" class="link">+380678341034</a>
-                <a href="#" class="link">+380500941356</a>
+                <a href="#" class="link">+74232497777</a>
+                <a href="#" class="link">+74232497777</a>
             </div>
         </div>
     </footer>
@@ -271,7 +271,6 @@
             </div>
         </div>
     </div>
-
     <script src="js/script.js"></script>
 </body>
 </html>
